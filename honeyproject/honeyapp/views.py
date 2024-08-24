@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-def landing_page(request):
+def index_page(request):
     return render(request, 'index.html')
 
 def land_page(request):
